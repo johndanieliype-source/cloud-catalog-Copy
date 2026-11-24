@@ -1,0 +1,13 @@
+
+{
+  "name": "cloud-catalog",
+  "version": "1.0.0",
+  "description": "Enterprise Cloud Service Catalog - MDS 403 PaaS Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

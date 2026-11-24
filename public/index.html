@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enterprise Cloud Service Catalog</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 750px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 45px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            color: #cbd5e1;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .student {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            line-height: 2;
+        }
+
+        .student strong {
+            color: #93c5fd;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 25px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #60a5fa;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #94a3b8;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Enterprise Cloud Service Catalog</h1>
+
+        <p class="description">
+            Explore enterprise cloud computing services through
+            our Cloud Service Catalog. Access service information
+            and monitor application health through our REST APIs.
+        </p>
+
+        <div class="student">
+            <p><strong>Developer:</strong> John Daniel Iype</p>
+            <p><strong>University Roll Number:</strong> 2648032</p>
+            <p><strong>Course:</strong> MDS 403 - Cloud Services</p>
+        </div>
+
+        <div class="buttons">
+            <a href="/api/services" class="btn">
+                View Cloud Services
+            </a>
+
+            <a href="/api/status" class="btn">
+                Check System Status
+            </a>
+        </div>
+
+        <footer>
+            Cloud Service Catalog | Node.js & Express |
+            MDS 403 PaaS Project
+        </footer>
+
+    </div>
+
+</body>
+</html>
